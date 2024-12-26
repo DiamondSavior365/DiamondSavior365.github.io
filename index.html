@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatable" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css" />
     <title>My Portfolio</title>
   </head>
   <body>
@@ -20,12 +21,105 @@
         ></video>
       </section>
       <section class="hero-text-box">
-        <h1 class="hero-heading">Creativity Like And Ocean Wave</h1>
-        <p class="hero-text">
-          Surf on with Multona Othenton's creative projects
+        <h1 class="hero-heading">Diamond Savior</h1>
+        <p class="hero-text">Surf on with Diamond Savior's creative projects</p>
+        <p>
+          <a href="#portfolio">
+            <button type="button" class="hero-button">View Portfolio</button>
+          </a>
         </p>
       </section>
     </header>
     <!-- End Hero Header -->
+
+    <!-- Begin Portfolio-->
+    <section id="portfolio" class="portfolio-container">
+      <h1>Portfolio</h1>
+      <section class="portfolio-gallery">
+        <div class="gallery-item">
+          <a
+            href="img/phone-app-1.jpg"
+            class="glightbox"
+            data-glightbox="title: Lucky Number App; description: This is an android app I built for generating a random number."
+          >
+            <img
+              src="img/phone-app-1.jpg"
+              alt="An image of my first phone app."
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            href="img/phone-app-2.jpg"
+            class="glightbox"
+            data-glightbox="title: The Grocery App; description: This is an android app I built for searching for groceries."
+          >
+            <img
+              src="img/phone-app-2.jpg"
+              alt="An image of my second phone app."
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            href="img/phone-app-3.jpg"
+            class="glightbox"
+            data-glightbox="title: Planets App; description: This is an android app I built for discovering about planets."
+          >
+            <img
+              src="img/phone-app-3.jpg"
+              alt="An image of my second phone app."
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            href="img/phone-app-4.jpg"
+            class="glightbox"
+            data-glightbox="title: The Sports App; description: This is an android app I built for searching about sports."
+          >
+            <img
+              src="img/phone-app-4.jpg"
+              alt="An image of my fourth phone app."
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            href="img/phone-app-5.jpg"
+            class="glightbox"
+            data-glightbox="title: The Movie App; description: This is an android app I built for displaying realtime top 20 movies"
+          >
+            <img
+              src="img/phone-app-5.jpg"
+              alt="An image of my fifth phone app."
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            href="img/phone-app-6.jpg"
+            class="glightbox"
+            data-glightbox="title: Contacts Manager App; description: This is an android app I built for managing contacts"
+          >
+            <img
+              src="img/phone-app-6.jpg"
+              alt="An image of my sixth phone app."
+              class="gallery-img"
+            />
+          </a>
+        </div>
+      </section>
+    </section>
+    <!-- End Portfolio -->
+    <script src="js/glightbox.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({ loop: true });
+    </script>
   </body>
 </html>
