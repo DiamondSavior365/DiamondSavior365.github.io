@@ -101,6 +101,7 @@ video {
   position: fixed;
   top: 0;
 }
+
 /* modern browsers */
 @supports (position: sticky;) {
   .top-nav {
@@ -261,7 +262,9 @@ video {
 .section-stop {
   scroll-margin-top: 6rem;
 }
-
+.footer-nav a {
+  text-decoration: none;
+}
 /* Add Media Queries for Large Screens */
 
 @media (min-width: 600px) {
