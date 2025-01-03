@@ -266,5 +266,15 @@
     <script type="text/javascript">
       const lightbox = GLightbox({ loop: true });
     </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const video = document.querySelector(".hero-video");
+        if (video && video.paused) {
+          video.play().catch((error) => {
+            console.error("Autoplay failed:", error);
+          });
+        }
+      });
+    </script>
   </body>
 </html>
